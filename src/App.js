@@ -4,6 +4,8 @@ import "./App.css";
 import Title from "./components/Title";
 import LikeCounter from "./components/LikeCounter"
 import AwesomeAnimals from "./components/AwesomeAnimals"
+import ArticleList from "./components/ArticleList"
+import ArticleCard from "./components/ArticleCard"
 
 function App() {
   return (
@@ -12,7 +14,6 @@ function App() {
         <Title content="Hi there!" />
         <LikeCounter />
         <AwesomeAnimals />
-        
       </main>
 
       <header className="App-header">
@@ -20,14 +21,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+        <ArticleList />
+        <ArticleCard />
+        </div>
       </header>
     </div>
   );
