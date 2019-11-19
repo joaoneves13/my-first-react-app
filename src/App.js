@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Title from "./components/Title";
 import LikeCounter from "./components/LikeCounter"
-
+import AwesomeAnimals from "./components/AwesomeAnimals"
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
       <main>
         <Title content="Hi there!" />
         <LikeCounter />
+        <AwesomeAnimals />
+        
       </main>
 
       <header className="App-header">

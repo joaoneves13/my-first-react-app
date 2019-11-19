@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class LikeCounter extends Component {
   state = {
-    numLikes: 1000
+    numLikes: 0
   };
 
   increment = () => {
