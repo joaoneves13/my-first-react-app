@@ -2,12 +2,15 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Title from "./components/Title";
+import LikeCounter from "./components/LikeCounter"
+
 
 function App() {
   return (
     <div className="App">
       <main>
         <Title content="Hi there!" />
+        <LikeCounter />
       </main>
 
       <header className="App-header">
